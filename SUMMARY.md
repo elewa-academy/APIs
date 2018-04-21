@@ -3,7 +3,7 @@
 * [API's](README.md)   
 * [1. CRUD](./1-crud/README.md)
 * [2. Services](./2-services/README.md)
-* [3. CLI's](./3-slis/README.md)
+* [3. CLI's](./3-clis/README.md)
 * [4. API's](./4-apis/README.md)
 * [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
 * [Repo](https://github.com/elewa-academy/APIs/tree/master)
