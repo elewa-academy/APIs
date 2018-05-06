@@ -46,7 +46,7 @@ Along the way you'll learn about Model Objects and File IO (one of Node's 3 supe
         * Set name of DB
         * See a helpful message or error after each operation
     * Test the model objecti in your /tests folder
-3. Write a Node.js Handler & View.  No need for a Logic or Controller	
+3. Write a Node.js Handler & View.  
 4. Build a repo for this project and include it on your portfolio.
 
 
@@ -61,14 +61,17 @@ Challenge:
 
 ## Resources
 
+* [code to study](https://github.com/elewa-academy/APIs/tree/master)
+
 File I/O in Node:
 * [Stackabuse](http://stackabuse.com/reading-and-writing-json-files-with-node-js/)
 * [Codementor](https://www.codementor.io/codementorteam/how-to-use-json-files-in-node-js-85hndqt32)
 * [node-jsonfile](https://github.com/jprichardson/node-jsonfile)
+* [By Example](https://github.com/elewa-academy/Modular-Design/) - some of the apps have a db.txt, those use file io
 
 Error Handling with Callbacks:
 * [Error First Convention](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/)
-* [By Example](https://github.com/elewa-academy/Modular-Design/tree/master/docs_src/03-async-modules/sync-vs-async)
+* [By Example](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-callbacks)
 
 Closures:
 * [General Resources](https://elewa-academy.github.io/General-Resources/javascript/closures.html)

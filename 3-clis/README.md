@@ -1,21 +1,20 @@
 # Commander.js
 
-take the project from last time and give it a commander.js handler & view
+take the project from last time and give it a commander.js UI.
 
 
 ### Index
 * [Learning Objectives](#learning-objectives)
 * [Specifications](#specifications)
 * [Resources](#resources)
-* [Assessment](#assessment)
 
 ---
 
 ## Learning Objectives
 
-overview
-
-list
+* CLI vs GUI
+* Commander.js
+* Application portability
 
 [TOP](#index)
 
@@ -23,11 +22,10 @@ list
 
 ## Specifications
 
-0. follow this tutorial (github api one)
 1. Commanderize your service
-2. make it global
-3. give it a full repo
-4. add this to your portfolio
+2. Make a it a full repository
+3. Add this to your portfolio
+4. Use it to take notes!
 
 
 [TOP](#index)
@@ -37,32 +35,15 @@ list
 ## Resources
 
 
-https://ourcodeworld.com/articles/read/393/how-to-create-a-global-module-for-node-js-properly
 
-commander itself has lots of examples on github
+* [CLI vs GUI](https://www.difference.wiki/gui-vs-command-line/)
+* CLI text editors: [Vim](https://www.vim.org), [Nano](https://www.nano-editor.org), [Emacs](https://www.gnu.org/software/emacs/)
+* [Usage Message](https://en.wikipedia.org/wiki/Usage_message)
+* Using Commander.js: [Tutorial](http://cruft.io/posts/node-command-line-utilities/), [Finished Gist](https://gist.github.com/GlynnPhillips/7f3dcb2b990796f1856f), [Their Examples](https://github.com/tj/commander.js/tree/master/examples)
+* Who needs a UI anyway?: [Awesome CLI's](https://github.com/agarrharr/awesome-cli-apps), [Lifehacker's list](https://lifehacker.com/5622340/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 
-vim, nano, emacs
-
-commander
-	yup good?
-		https://gist.github.com/GlynnPhillips/7f3dcb2b990796f1856f
-			uses github api, prep for portfolio facelift
-	nah bad
-		https://medium.freecodecamp.org/writing-command-line-applications-in-nodejs-2cf8327eee2
-			code samples don't work
-
-http://cruft.io/posts/node-command-line-utilities/ - do this one
-
-https://en.wikipedia.org/wiki/Usage_message
-
-[TOP](#index)
-
----
-
-## Assessment
-
-links to google forms
-links to repo if there is a larger code-based assessment
+Challenge: 
+* [Global NPM modules](https://ourcodeworld.com/articles/read/393/how-to-create-a-global-module-for-node-js-properly)
 
 [TOP](#index)
 
