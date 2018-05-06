@@ -246,7 +246,9 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="service-based-application-design">Service-Based Application Design</h1>
-<p>refactor the last application into service-based architecture</p>
+<blockquote>
+<p>&quot;The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application&quot; - <em>Justin Meyer, author JavaScriptMVC</em></p>
+</blockquote>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
@@ -255,37 +257,59 @@
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
-<p>overview</p>
-<p>list</p>
+<ul>
+<li>Build architecture</li>
+<li>Service-based design</li>
+</ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
 <ol>
 <li>convert the last project into a MCL note-taking service<ul>
-<li>this service allows users to take notes in a json file from wherever the </li>
-<li>everything must be exported through index.js - for easy use
-  $ ./notes create favorite_sandwitch turkey_lettuce
-  project<pre><code>  /notes
-  notes.json
-</code></pre>service is installed. They can:
-  add key-value (title, content) pairs to a json file
-  read a single not
-  read all notes
-  update a note
-  remove a note
-  view all possible commands &amp; the arguments they take
-  get a meaningful message or error after each command executed
-  initialize a new notes file in a new directory
-  reinitialize notes.json
-  delete the notes file</li>
+<li>This service allows users to take notes in a json file</li>
+<li>Everything must be exported through index.js - for easy use</li>
+<li>Users can ...<ul>
+<li>add key-value (title, content) pairs to a json file</li>
+<li>read a single not</li>
+<li>read all notes</li>
+<li>update a note</li>
+<li>remove a note</li>
+<li>view all possible commands &amp; the arguments they take</li>
+<li>get a meaningful message or error after each command executed</li>
+<li>initialize a new notes file in a new directory</li>
+<li>reinitialize notes.json</li>
+<li>delete the notes file</li>
 </ul>
 </li>
-<li>challenge: nested notes</li>
+</ul>
+</li>
+<li>challenge: modify your service to allow users to read and write nested objects</li>
 </ol>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>reading/writing/creating/deleting files in node</p>
+<ul>
+<li><a href="https://github.com/elewa-academy/APIs/tree/master" target="_blank">Code to Study</a></li>
+</ul>
+<p>Articles and the like:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Service-oriented_architecture" target="_blank">Service Oriented Architecture - wikipedia</a></li>
+<li><a href="https://www.youtube.com/watch?v=IIWVIa6QhkM" target="_blank">Service Oriented Architecture - YouTube</a></li>
+<li><a href="https://medium.com/@abinoda/how-teams-get-microservices-wrong-from-the-start-51777c99c059" target="_blank">Micro-Services, not so simple</a></li>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/application-design/microservices.md" target="_blank">General Resources</a></li>
+<li><a href="https://techcrunch.com/2016/01/23/get-small-to-get-big-through-microservices/" target="_blank">How to</a></li>
+<li><a href="https://medium.freecodecamp.org/rest-in-peace-to-microservices-or-not-6d097b6c8279" target="_blank">Microservce vs Monolith</a></li>
+<li><a href="https://adamdrake.com/posts/2017-05-20-enough-with-the-microservices.html" target="_blank">Monlith First</a> - Start with a good modular app, break it into services as needed</li>
+<li><a href="https://blog.rapid7.com/2016/09/15/microservices-please-dont/" target="_blank">Microservices - Please Don&apos;t</a></li>
+<li><a href="https://www.apptweak.com" target="_blank">Apptweak</a> - looking to hire, and uses Dockers microservices</li>
+<li><a href="https://www.docker.com/what-docker" target="_blank">Docker.js</a></li>
+</ul>
+<p>Previews of Coming Attractions:</p>
+<ul>
+<li><a href="https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-refactors/spa-tictactoes" target="_blank">TicTacToes</a></li>
+<li><a href="https://github.com/elewa-student/Frontend-Backend" target="_blank">Frontend/Backend</a></li>
+<li><a href="https://github.com/elewa-student/Vanilla-Fullstack" target="_blank">Vanilla Fullstack</a></li>
+</ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <hr>
@@ -333,7 +357,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2. Services","level":"1.3","depth":1,"next":{"title":"3. CLI's","level":"1.4","depth":1,"path":"3-clis/README.md","ref":"./3-clis/README.md","articles":[]},"previous":{"title":"1. CRUD","level":"1.2","depth":1,"path":"1-crud/README.md","ref":"./1-crud/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2-services/README.md","mtime":"2018-03-14T14:01:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-21T18:20:39.418Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2. Services","level":"1.3","depth":1,"next":{"title":"3. CLI's","level":"1.4","depth":1,"path":"3-clis/README.md","ref":"./3-clis/README.md","articles":[]},"previous":{"title":"1. CRUD","level":"1.2","depth":1,"path":"1-crud/README.md","ref":"./1-crud/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2-services/README.md","mtime":"2018-05-06T09:53:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-05-06T10:42:37.701Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
