@@ -16,6 +16,8 @@ Put your sevice behind an API.
 * Restful Routing
 * Testing APIs
 * The internet
+* Package.json 
+* Installing Dependencies
 
 [TOP](#index)
 
@@ -34,6 +36,9 @@ Put an Express handler and view on your notes service.
 * [Postman](https://www.getpostman.com): A UI for your API's
 * [Express](https://github.com/elewa-academy/General-Resources/blob/master/backend-libraries/express.md)
 * [RESTful Routing](https://github.com/elewa-academy/General-Resources/blob/master/application-design/restful-routes.md)
+* [Using NPM - video](https://www.youtube.com/watch?v=gKyRqFgJt6k)
+* [Using NPM - guide](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+
 
 Code to Study:
 * Start here
