@@ -28,7 +28,7 @@ let model = {
 	read_all: function() {
 			let db = require('../db.json');
 			return db.data
-			//  	returns array of all data
+			//    returns array of all data
 			// let db = require('../db.json');
 			// let data = db.data;
 			// let returner = [];

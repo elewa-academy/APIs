@@ -73,8 +73,13 @@ Error Handling with Callbacks:
 * [Error First Convention](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/)
 * [By Example](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-callbacks)
 
+NPM Installing:
+* [Nodesource](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
+* [Impressivewebs](https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/)
+
 Closures:
 * [General Resources](https://elewa-academy.github.io/General-Resources/javascript/closures.html)
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
 
 [TOP](#index)

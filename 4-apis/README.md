@@ -38,6 +38,8 @@ Put an Express handler and view on your notes service.
 * [RESTful Routing](https://github.com/elewa-academy/General-Resources/blob/master/application-design/restful-routes.md)
 * [Using NPM - video](https://www.youtube.com/watch?v=gKyRqFgJt6k)
 * [Using NPM - guide](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+* [Request/Response Cycle](https://docs.google.com/presentation/d/1fEYdZilygtP25YkGvPY8YiPwu7JNtANowNUR0JlNZBw/edit#slide=id.g1f801b6943_0_169)
+* [RESTful & Stateless](https://docs.google.com/presentation/d/1Mhoj-SHEX-sMSqxlsigBGyEjjxTvAFHP1PHOP3M0N9o/edit#slide=id.g1f8026c0cf_0_35)
 
 
 Code to Study:
