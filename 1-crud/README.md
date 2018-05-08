@@ -69,6 +69,7 @@ File I/O in Node:
 * [node-jsonfile](https://github.com/jprichardson/node-jsonfile)
 * [By Example](https://github.com/elewa-academy/Modular-Design/) - some of the apps have a db.txt, those use file io
 * [JSON format](https://www.w3schools.com/js/js_json_intro.asp)
+* [\_\_dirname](https://jaketrent.com/post/paths-in-node/)
 
 Error Handling with Callbacks:
 * [Error First Convention](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/)
@@ -82,9 +83,10 @@ Blocking & Non-Blocking:
 * [How to know the difference?](https://softwareengineering.stackexchange.com/questions/202047/what-determines-which-javascript-functions-are-blocking-vs-non-blocking)
 
 NPM Installing:
-* [Requiring Modules vs Files](https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8)
 * [Nodesource](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * [Impressivewebs](https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/)
+* [Requiring Modules vs Files](https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8)
+* [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)
 
 Closures:
 * [General Resources](https://elewa-academy.github.io/General-Resources/javascript/closures.html)
