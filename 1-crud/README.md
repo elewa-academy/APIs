@@ -30,7 +30,7 @@ Along the way you'll learn about Model Objects and File IO (one of Node's 3 supe
 ## Specifications
 
 
-1. For each _basic model_ file in this [demo app](https://github.com/elewa-academy/Modular-Design/tree/master/docs_src/05-crud/crud-app):
+1. For each _basic model_ file in this [demo app](https://github.com/elewa-academy/Modular-Design/tree/master/docs_src/1-crud/crud-app):
     * Write the model object
     * Test the model object in your /tests folder
 
