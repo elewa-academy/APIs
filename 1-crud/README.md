@@ -82,6 +82,7 @@ Blocking & Non-Blocking:
 * [How to know the difference?](https://softwareengineering.stackexchange.com/questions/202047/what-determines-which-javascript-functions-are-blocking-vs-non-blocking)
 
 NPM Installing:
+* [Requiring Modules vs Files](https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8)
 * [Nodesource](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * [Impressivewebs](https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/)
 
