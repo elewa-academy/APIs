@@ -1,3 +1,6 @@
+// notice these requires don't have "./"
+//	require statements without a path are requiring node modules
+//	not local files
 let jsonfile = require('jsonfile');
 let path = require('path');
 
