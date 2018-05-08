@@ -1,1 +1,1 @@
-// an async version of the data model containing your favorite data structure
+// an async version (callbacks) of the data model containing your favorite data structure
