@@ -46,6 +46,8 @@
 
 * [Code to Study](https://github.com/elewa-academy/APIs/tree/master)
 
+* [Services are Abstractions](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/abstractions.md)
+
 Articles and the like:
 * [Service Oriented Architecture - wikipedia](https://en.wikipedia.org/wiki/Service-oriented_architecture)
 * [Service Oriented Architecture - YouTube](https://www.youtube.com/watch?v=IIWVIa6QhkM)
