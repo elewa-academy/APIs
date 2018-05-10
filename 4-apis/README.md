@@ -54,6 +54,7 @@ Code to Study:
   * [Node/Express Step by Step](https://github.com/GeorgeFourikis/Node-Express-Step-by-Step)
   * [Intro Express](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/code-alongs/express/rien-introExpress)
   * [RESTful Routes](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/code-alongs/express/restful-routes)
+  * [Inside Express](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/express-apps/inside-express)
 * Then here
   * [Express Calc Series - logic based app](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-refactors/express-calc-series)
   * [Express Beaver Series - data based app](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-refactors/express-beaver-crud-series)
