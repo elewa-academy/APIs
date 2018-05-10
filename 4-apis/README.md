@@ -33,8 +33,12 @@ Put an Express handler and view on your notes service.
 
 ## Resources
 
+Tools & Libraries:
 * [Postman](https://www.getpostman.com): A UI for your API's
 * [Express](https://github.com/elewa-academy/General-Resources/blob/master/backend-libraries/express.md)
+* [Nodemon](https://github.com/remy/nodemon)
+
+API's:
 * [RESTful Routing](https://github.com/elewa-academy/General-Resources/blob/master/application-design/restful-routes.md)
 * [Using NPM - video](https://www.youtube.com/watch?v=gKyRqFgJt6k)
 * [Using NPM - guide](https://www.sitepoint.com/beginners-guide-node-package-manager/)
