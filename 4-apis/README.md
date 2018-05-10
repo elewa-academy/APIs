@@ -37,7 +37,8 @@ Put your sevice behind an API.
 
 Tools & Libraries:
 * [Postman](https://www.getpostman.com): A UI for your API's
-* [Express](https://github.com/elewa-academy/General-Resources/blob/master/backend-libraries/express.md)
+* [Express GitHub](https://github.com/elewa-academy/General-Resources/blob/master/backend-libraries/express.md)
+* [Express Docs](https://expressjs.com/en/4x/api.html)
 * [Nodemon](https://github.com/remy/nodemon)
 
 API's:
