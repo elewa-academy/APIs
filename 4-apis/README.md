@@ -25,7 +25,9 @@ Put your sevice behind an API.
 
 ## Specifications
 
-Put an Express handler and view on your notes service.
+
+1. Complete the [Debugging Express](https://github.com/elewa-academy/debugging-express-template) project and put it on your portfolio.
+2. Put an Express handler and view on your notes service.
 
 [TOP](#index)
 
