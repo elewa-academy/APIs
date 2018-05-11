@@ -63,6 +63,9 @@ Code to Study:
   * [Student CRUD](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/code-alongs/express/rien-studentCrud)
   * [Frontend/Backend](https://github.com/elewa-student/Frontend-Backend)
   * [Vanilla Fullstack](https://github.com/elewa-student/Vanilla-Fullstack)
+* In the Wild
+  * [ES6 Rest API Boilerplate](https://github.com/developit/express-es6-rest-api)
+  * [Muber](https://github.com/developit/express-es6-rest-api)
 
 
 [TOP](#index)
