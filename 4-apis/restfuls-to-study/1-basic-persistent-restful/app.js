@@ -55,6 +55,7 @@ app.get("/notes/all", function(req, res){
     console.log("-- GET /notes/all --");
     res.send(notes_service.read_all());
 })
+
 app.get("/notes/reset", function(req, res){
     console.log("-- GET /notes/reset --");
     notes_service.reset();
@@ -69,6 +70,7 @@ app.get("/notes/add", function(req, res){
 app.post("/notes/add", function(req, res){
     console.log("-- POST /notes/add --");
     var new_note = req.body.note;
+    console.log(req.body)
     var id = notes_service.create(new_note);
     res.redirect("/notes/" + id)
 })
@@ -88,12 +90,29 @@ app.get("/notes/:id/update", function(req, res){
     res.send(response);
 })
 
+// params is a feature of express
 app.post("/notes/:id/update", function(req, res){
     console.log("-- POST /notes/:id/update --");
     var note_id = req.params.id
     notes_service.update(note_id, req.body.note)
     res.redirect("/notes/" + note_id)
 })
+
+// will work
+// app.post("/notes/:y/update", function(req, res){ 
+//     console.log("-- POST /notes/:id/update --");
+//     var note_id = req.params.y
+//     notes_service.update(note_id, req.body.note)
+//     res.redirect("/notes/" + note_id)
+// })
+
+// won't work
+// app.post("/notes/id/update", function(req, res){
+//     console.log("-- POST /notes/:id/update --");
+//     var note_id = req.params.id
+//     notes_service.update(note_id, req.body.note)
+//     res.redirect("/notes/" + note_id)
+// })
 
 app.get("/notes/:id/delete", function(req, res){
     console.log("-- GET /notes/:id/delete --");
