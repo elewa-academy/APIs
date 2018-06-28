@@ -46,8 +46,8 @@ API's:
 * [Using NPM - video](https://www.youtube.com/watch?v=gKyRqFgJt6k)
 * [Using NPM - guide](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 * [Request/Response Cycle](https://docs.google.com/presentation/d/1fEYdZilygtP25YkGvPY8YiPwu7JNtANowNUR0JlNZBw/edit#slide=id.g1f801b6943_0_169)
+* [Stateful vs Stateless](https://nordicapis.com/defining-stateful-vs-stateless-web-services/)
 * [RESTful & Stateless](https://docs.google.com/presentation/d/1Mhoj-SHEX-sMSqxlsigBGyEjjxTvAFHP1PHOP3M0N9o/edit#slide=id.g1f8026c0cf_0_35)
-
 
 Code to Study:
 * Start here
